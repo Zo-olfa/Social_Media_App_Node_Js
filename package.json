@@ -1,0 +1,46 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "description": "Social Media App Backend with node js including \"typescript - auth - socket.io - graphql\" _route academy 2026_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"tsc --watch\" \"node --watch ./dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-official.com:Zo-olfa/Social_Media_App_Node_Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/argon2": "^0.14.1",
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.2.0",
+    "@types/node": "^26.6.3",
+    "@types/nodemailer": "^8.0.2",
+    "concurrently": "^10.0.5"
+  },
+  "dependencies": {
+    "argon2": "^0.45.1",
+    "bcrypt": "^6.0.0",
+    "chalk": "^6.0.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "google-auth-library": "^11.1.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.11",
+    "redis": "^6.2.1",
+    "zod": "^4.6.5"
+  }
+}
